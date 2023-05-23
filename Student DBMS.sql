@@ -13,7 +13,6 @@ insert into STUDENT values(5,'abc','abc','haryana','karnal',110033,'01-MAR-2023'
 insert into STUD_HOBBY values(1,'cricket')
 insert into STUD_HOBBY values(1,'football')
 insert into STUD_HOBBY values(2,'cricket')
-insert into STUD_HOBBY values(3,'football')
 insert into STUD_HOBBY values(4,'basketball')
 insert into STUD_HOBBY values(5,'badminton')
 
@@ -23,16 +22,16 @@ insert into COURSE values(102,'MSC')
 insert into COURSE values(103,'MTECH')
 insert into COURSE values(104,'BDES')
 
-insert into LECTURER values(10,'ABC',100) 
-insert into LECTURER values(20,'DEF',101)
-insert into LECTURER values(30,'ABC',100)
+insert into LECTURER values(10,’DEF’,101) 
+insert into LECTURER values(30,’ABC,100)
 insert into LECTURER values(40,'ABC',102)
 insert into LECTURER values(50,'ABC',103)
+insert into LECTURER values(20,'ABC',101)
 
-insert into SUBJECT values(200,'DBMS',20)
-insert into SUBJECT values(201,'ADA',10) 
-insert into SUBJECT values(202,'COA',30) 
-insert into SUBJECT values(203,'OS',20) 
+insert into SUBJECT values(201,’ADA’,10)
+insert into SUBJECT values(202,’COA’,30) 
+insert into SUBJECT values(203,’OS’,20) 
+insert into SUBJECT values(200,’DBMS’,20) 
 insert into SUBJECT values(204,'DE',50)
 
 select * from STUDENT
